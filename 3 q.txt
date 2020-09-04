@@ -1,0 +1,10 @@
+int main()
+{
+    int A,B;
+    scanf("%d %d",&A,&B);
+    printf("Before Swapping : %d %d",A,B);
+    A=A+B;
+    B=A-B;
+    A=A-B;
+    printf("\nAfter Swapping : %d %d",A,B);
+}
